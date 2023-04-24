@@ -17,7 +17,7 @@
 #include <lwip/api.h>
 #include <lwip/netdb.h>
 
-extern int wifi_connect_status;
+static int wifi_connect_status;
 
 void connect_wifi(void);
 
